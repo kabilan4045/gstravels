@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/*
+  Brand tokens — swap these once the client supplies their logo/brand colors.
+  Defaults below are a professional travel-industry palette.
+*/
+@theme {
+  --color-brand-primary: #0b4f6c;
+  --color-brand-primary-dark: #082f41;
+  --color-brand-primary-light: #1a6a8f;
+  --color-brand-accent: #f58220;
+  --color-brand-accent-dark: #d96a0d;
+  --color-brand-accent-light: #ff9d47;
+  --color-brand-slate: #1f2937;
+  --color-brand-bg: #f8fafc;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  color: var(--color-brand-slate);
+  background-color: #ffffff;
+}
