@@ -23,7 +23,7 @@ function App() {
     <div className="flex min-h-screen flex-col">
       <ScrollToTop />
       <Navbar />
-      <main className="flex-1 pb-14 sm:pb-0">
+      <main className="flex-1 pb-16 sm:pb-0">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

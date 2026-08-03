@@ -7,22 +7,22 @@ export default function CTASection({
   subtitle = "Let's get you moving.",
 }) {
   return (
-    <section className="bg-brand-primary-dark">
-      <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 py-14 text-center sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold text-white sm:text-3xl">{title}</h2>
-        <p className="text-slate-300">{subtitle}</p>
-        <div className="flex flex-col gap-3 sm:flex-row">
+    <section className="bg-brand-deep">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-5 px-4 py-12 text-center sm:px-6 sm:py-16 lg:px-8">
+        <h2 className="text-display-l text-brand-paper">{title}</h2>
+        <p className="text-brand-paper/60">{subtitle}</p>
+        <div className="mt-2 flex w-full flex-col items-center gap-4 sm:w-auto sm:flex-row">
           <Link
             to="/contact"
-            className="rounded-md bg-brand-accent px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-accent-dark"
+            className="w-full rounded-md bg-brand-accent px-7 py-3 text-center text-sm font-semibold text-brand-deep transition-colors hover:bg-white sm:w-auto"
           >
             Get Quote
           </Link>
           <a
             href={telLink(company.phones[0])}
-            className="flex items-center justify-center gap-2 rounded-md border border-white/30 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10"
+            className="inline-flex items-center gap-2 py-2 text-sm font-semibold text-brand-paper/80 underline decoration-brand-paper/30 underline-offset-4 transition-colors hover:text-brand-paper sm:py-0"
           >
-            <Phone size={16} />
+            <Phone size={15} />
             Call {company.phones[0]}
           </a>
         </div>
