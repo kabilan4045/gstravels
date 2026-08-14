@@ -6,7 +6,7 @@ const ORIGINAL_WIDTHS = {
   "/images/fleet/cars.jpg": 1280,
   "/images/fleet/hero-lineup.jpg": 1600,
   "/images/fleet/tempo-traveller-front.jpg": 1032,
-  "/images/fleet/tempo-traveller-rear-branding.jpg": 1600,
+  "/images/fleet/tempo-traveller-lineup.jpg": 1032,
   "/images/fleet/tempo-traveller-rear.jpg": 1600,
   "/images/fleet/tour-bus.jpg": 1032,
 };

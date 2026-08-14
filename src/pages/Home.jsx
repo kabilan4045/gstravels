@@ -126,8 +126,8 @@ export default function Home() {
           <div className="lg:col-span-2">
             <div className="overflow-hidden rounded-lg border border-brand-line">
               <ResponsiveImg
-                src="/images/fleet/tempo-traveller-rear-branding.jpg"
-                alt="GS Travels tempo travellers with branded roundel decals, Gummidipoondi yard"
+                src="/images/fleet/tempo-traveller-lineup.jpg"
+                alt="GS Travels tempo traveller fleet lined up at the Gummidipoondi yard"
                 className="h-64 w-full object-cover lg:h-80"
                 sizes="(min-width: 1024px) 40vw, 100vw"
               />
